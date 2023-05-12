@@ -4,7 +4,7 @@
   "info": {
     "singularName": "portfolio",
     "pluralName": "portfolios",
-    "displayName": "Portfolio",
+    "displayName": "Portfolio Data",
     "description": ""
   },
   "options": {
@@ -16,14 +16,69 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "hero_Title": {
+      "type": "string"
+    },
+    "hero_Description": {
+      "type": "text"
+    },
+    "hero_Btn_Text": {
+      "type": "string"
+    },
+    "hero_Overline": {
+      "type": "string"
+    },
+    "hero_List": {
+      "type": "json"
+    },
+    "about_Desc1": {
+      "type": "text"
+    },
+    "about_Desc2": {
+      "type": "richtext"
+    },
+    "about_Desc3": {
+      "type": "richtext"
+    },
+    "about_Desc4": {
+      "type": "richtext"
+    },
+    "work_TabList": {
+      "type": "json"
+    },
+    "work_Details_List": {
+      "type": "json"
+    },
+    "contact_Title": {
+      "type": "string"
+    },
+    "contact_Description": {
+      "type": "text"
+    },
+    "contact_Btn_Text": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "footer_Text": {
+      "type": "richtext"
+    },
+    "tech_List": {
+      "type": "json"
+    },
+    "project_List": {
+      "type": "json"
     }
   }
 }
