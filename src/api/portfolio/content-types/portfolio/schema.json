@@ -79,6 +79,9 @@
     },
     "project_List": {
       "type": "json"
+    },
+    "hero_Color_List": {
+      "type": "json"
     }
   }
 }
